@@ -3,7 +3,7 @@ Froge Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/froge-project/froge.svg?branch=master)](https://travis-ci.org/froge-project/froge)
 
-https://froge.org
+https://froge.biz
 
 What is Froge?
 ----------------
