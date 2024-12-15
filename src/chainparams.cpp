@@ -111,7 +111,7 @@ public:
         pchMessageStart[1] = 0xc0;
         pchMessageStart[2] = 0xb6;
         pchMessageStart[3] = 0xdb;
-        nDefaultPort = 6333;
+        nDefaultPort = 8333;
         nPruneAfterHeight = 100000;
 
         genesis = CreateGenesisBlock(1716570996, 2000262303, 0x1e0ffff0, 1, 42 * COIN);
@@ -120,7 +120,7 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0xbff42b7112898bd83678932a6cb3646da3023755557d771424c421be36eff36b"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.push_back(CDNSSeedData("172.233.214.164", "172.233.214.164", true));
+        vSeeds.push_back(CDNSSeedData("18.224.250.194", "18.224.250.194", true));
         // vSeeds.push_back(CDNSSeedData("thrasher.io", "dnsseed.thrasher.io", true));
         // vSeeds.push_back(CDNSSeedData("frogetools.com", "dnsseed.frogetools.com"));
         // vSeeds.push_back(CDNSSeedData("frogepool.org", "dnsseed.frogepool.org"));
